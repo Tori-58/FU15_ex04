@@ -33,6 +33,11 @@ int main()
 	}
 	
 	printf("Heads: %d, Tails: %d\n",countH,countT);
+<<<<<<< HEAD
 	if(countH > countT) printf("You won!\n");
 	else printf("You lost\n");
+=======
+	if(countH > countT) printf("%s won!\n",name);
+	else printf("%s lost\n",name);
+>>>>>>> user_name
 }
